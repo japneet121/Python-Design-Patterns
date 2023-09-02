@@ -1,7 +1,6 @@
 class DocumentFactory:
     def __init__(self):
         pass
-    
     @classmethod
     def get_document(self,type):
         if type=="image" or type=="Image":
